@@ -1,6 +1,5 @@
 import pygame as pg
 import pygame.draw
-from pygame.locals import *
 from Snake import Snake
 from agent import Agent
 WHITE = (255, 255, 255)

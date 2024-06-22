@@ -11,10 +11,8 @@ class Agent:
         self.discount_rate = discount_rate
         self.epsilon = epsilon
         self.possible_actions = actions
-        self.p_state = None
 
     def get_action(self, state):
-        self.p_state = state
         # Observe Current state s and locate it on table
         possible_actions = self.q_table[state[0]][state[1]][state[2]][state[3]][state[4]][state[5]][
             state[6]][state[7]][state[8]][state[9]][state[10]][state[11]]
